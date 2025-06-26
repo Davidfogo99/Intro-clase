@@ -1,5 +1,6 @@
 # Intro Python basics
 This is a repo where i'm storing projects from my data science course
+
 ## Notebooks
 | Notebook | Description |
 | -------- | ----------- |
@@ -9,8 +10,17 @@ This is a repo where i'm storing projects from my data science course
 |[**![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)**](notebooks/Lesson%20V%20-%20Scikit-Learn%20intro.ipynb) | Introduction toScikit-Learn basics|
 
 
+## How we activate our Enviorement (if you need it)?
+```bash
+conda init
+```
+```bash
+conda create -n venv python=3.13
+```
+
 ## How we use it?
 This project is used with Python 3.11.11 and you can install the dependencies with the following command
 ```bash
 pip install -r requirements.txt
 ```
+
